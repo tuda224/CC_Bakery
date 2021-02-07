@@ -10,6 +10,7 @@ namespace Bakery
         public int Day { get; set; }
         public int Amount { get; set; }
         public int TimeWindow { get; set; }
+        public int Driver { get; set; }
     }
 
     public class Payment
